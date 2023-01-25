@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./mission1_js/appMission1.js" defer></script>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <style>
+      
+      #badge{
+     font-size: 12px;
+       
+      }
+    </style>
+    
+    <title>Mission 3</title>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="container mt-5">
+      <div class="d-flex align-items-center">  <h1 class="display-2">To-do list  </h1> <h4><span class=" badge  bg-danger top-100 ms-2 mb-5"  id="badge">
+      </h4> 
+       
+      </span></div>
+    
+    
+      <div class="row" id="id_wrap_form">
+        <form id="id_form">
+
+          <div class="form-group">
+            <label class="ms-2" for="exampleInputEmail1">Enter to-do task:</label>
+            <textarea class="form-control" id="textInput" placeholder="Provide some details of to-do task here..."rows="3"></textarea>
+          </div>
+
+
+
+         
+          <div class="form-group mt-3">
+            <label class="ms-2" for="exampleInputPassword1" >Pick the date:</label>
+            <input type="time" class="form-control" id="dateInput" placeholder="">
+          </div>
+          <div class="mt-3">
+          <button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+          <button type="button" id="btnReset" class="btn btn-danger">Reset</button>
+        </div>
+        </form>
+      </div>
+      <div class="row mt-5 justify-content-between" id="id_wrap_card">
+<!-- <div class="col-5">
+  <div class="card bg-light mb-3" >
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <p class="m-0 p-0">New to-do list</p>
+      <button  class="btn btn-close "></button>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Light card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

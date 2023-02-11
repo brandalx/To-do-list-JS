@@ -3,7 +3,7 @@
 
 ## Introduction
 This is simple to-do list with using Java Script Bootstrap CSS HTML
-###You may check this project online on Netlify, follow the link: https://todolist-brndax.netlify.app/
+### You may check this project online on Netlify, follow the link: https://todolist-brndax.netlify.app/
 
 ##  Features 
 - `localStorage` will help to manually save your tasks for the future
